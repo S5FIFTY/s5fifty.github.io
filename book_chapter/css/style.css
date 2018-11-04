@@ -1,0 +1,111 @@
+
+body {
+    background-image: url(https://c1.staticflickr.com/4/3110/2448102436_34d3ea326f_b.jpg);
+    /* Image Credit: Dr. Timothy Haupt on Flickr Image Name: Black Marble */
+}
+
+.wrapper {
+    background: rgb(247, 246, 240);
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 30px;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #E1695A;
+    margin-bottom: .5rem;
+}
+
+header h5, header {
+    text-align: center;
+    margin: 0;
+}
+
+.subheader {
+    margin-bottom: 0.3rem;
+    color: #828D9A;
+    font-size: 1.2rem;
+}
+
+blockquote {
+    font-size: 1.25rem;
+    display: inline-block;
+    border-top: 1.45px solid black;
+    border-bottom: 1.45px solid black;
+    padding: 1rem 0;
+    text-align: center;
+    color: #515261;
+}
+
+.columns1 {
+    width: 25rem;
+    float: left;
+    padding-left: 6px;
+    border-left: 1px solid #BEB8B8;
+    margin-left: 6px;
+    position: relative;
+}
+
+.columns2 {
+    width: 30rem;
+    float: left;
+    padding-right: 6px;
+    border-right: 1px solid #BEB8B8;
+    margin-right: 6px;
+    position: relative;
+}
+
+article p {
+    margin: 0.25em 0;
+    line-height: 16px;
+}
+
+article.cols2 {
+    -moz-column-count:2; /* Firefox */
+    -webkit-column-count:2; /* Safari and Chrome */
+    column-count:2;
+}
+
+article.cols {
+    -moz-column-count:1; /* Firefox */
+    -webkit-column-count:1; /* Safari and Chrome */
+    column-count:1;
+}
+
+.just {
+    text-align: justify;
+}
+
+.special {
+    color: #AF6468;
+}
+
+.columnsmiddle {
+    margin: 0;
+    height: 10px;
+    width: 13rem;
+    float: left;
+    text-align: justify;
+}
+
+footer {
+    display: inline-block;
+    text-align: center;
+    border-top: 1px solid black;
+    margin-top: 1rem;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #98999D;
+}
+
+a:hover {
+    color: #F25652;
+}
