@@ -44,7 +44,7 @@ blockquote {
     width: 25rem;
     float: left;
     padding-left: 6px;
-    border-left: 1px solid #BEB8B8;
+    /* border-left: 1px solid #BEB8B8; */
     margin-left: 6px;
     position: relative;
 }
@@ -53,7 +53,7 @@ blockquote {
     width: 30rem;
     float: left;
     padding-right: 6px;
-    border-right: 1px solid #BEB8B8;
+    /* border-right: 1px solid #BEB8B8; */
     margin-right: 6px;
     position: relative;
 }
@@ -64,15 +64,15 @@ article p {
 }
 
 article.cols2 {
-    -moz-column-count:2; /* Firefox */
-    -webkit-column-count:2; /* Safari and Chrome */
-    column-count:2;
+    -moz-column-count: 2; /* Firefox */
+    -webkit-column-count: 2; /* Safari and Chrome */
+    column-count: 2;
 }
 
 article.cols {
-    -moz-column-count:1; /* Firefox */
-    -webkit-column-count:1; /* Safari and Chrome */
-    column-count:1;
+    -moz-column-count: 1; /* Firefox */
+    -webkit-column-count: 1; /* Safari and Chrome */
+    column-count: 1;
 }
 
 .just {
@@ -84,11 +84,9 @@ article.cols {
 }
 
 .columnsmiddle {
-    margin: 0;
-    height: 10px;
-    width: 13rem;
     float: left;
-    text-align: justify;
+    width: 13rem;
+    position: relative;
 }
 
 footer {
